@@ -1,0 +1,121 @@
+.section5-mainContainer {
+  /* height: 664px; */
+  margin: 62px;
+  margin-bottom: -30px;
+}
+.s5-text1 {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #4c696d;
+  font-weight: bold;
+}
+.s5-text2 {
+  font-size: 20px;
+  line-height: 23px;
+  font-family: "Lato", sans-serif;
+  color: #0c0c0c;
+  font-weight: 400;
+}
+.s5-gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  /* margin: 5px; */
+  grid-auto-rows: 450px;
+  gap: 15px;
+  /* height: 500px; */
+  /* border: 2px solid red; */
+}
+.s5-card {
+  /* margin: 50px; */
+  margin-top: 50px;
+  width: 328px;
+  height: 432px;
+  /* border: 1px solid black; */
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.s5-image {
+  height: 297px;
+  width: 328px;
+  border-radius: 10px;
+}
+.s5-cardText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 102.2%;
+  text-align: center;
+  color: #000000;
+  margin-top: 15px;
+}
+.s5-lineBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.s5-line {
+  align-items: center;
+  border: 1px solid black;
+  width: 299px;
+}
+.s5-cardText2 {
+  margin: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.s5-bttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.s5-button {
+  margin: 10px;
+  width: 202px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  background: #4e99a4;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: "Jaldi";
+}
+.s5-btn-prop{
+    margin-top: -9px;
+}
+.img1sh {
+  box-shadow: 0px 10px 12px -3px #d6491b;
+}
+.img2sh {
+  box-shadow: 0px 10px 12px -3px #b6846d;
+}
+.img3sh {
+  box-shadow: 0px 10px 12px -3px rgba(211, 161, 103, 0.5);
+}
+.img4sh {
+  box-shadow: 0px 10px 12px -3px #cd91c0;
+}
+
+@media (max-width: 470px){
+  .s5-card{
+    width: 288px;
+    height: 392px;
+  } 
+  .s5-image {
+    height: 277px;
+    width: 288px;
+  }
+}
