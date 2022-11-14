@@ -8,17 +8,17 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="logo-optionWrapper">
         <span className="nav-logo">
-          <img className="nav-logo-img" src={logo} alt="image" />
+          <img className="nav-logo-img" src={logo} alt="Fliga India logo" />
         </span>
-        <div className={`nav-items ${isOpen && "open"}`}>
+        <div className="nav-items">
           <a href="/home">Home</a>
           <a href="/service">Service</a>
           <a href="/contact">Portfolio</a>
-          <a href="/contact">Comunity</a>
+          <a href="/contact">Community</a>
           <a href="/contact">Blog</a>
         </div>
       </div>
-      <div className={`nav-buttons ${isOpen && "open"}`}>
+      <div className="nav-buttons">
         <button className="button1">Sign Up</button>
         <button className="button2">Sign In</button>
       </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
           <a href="/home">Home</a>
           <a href="/service">Service</a>
           <a href="/contact">Portfolio</a>
-          <a href="/contact">Comunity</a>
+          <a href="/contact">Community</a>
           <a href="/contact">Blog</a>
         </div>
       </div>

@@ -181,3 +181,10 @@
     display: none;
   }
 }
+
+@media (min-width: 1200px) {
+  .Navbar>.logo-optionWrapper>.nav-items {
+    position: absolute;
+    left: 20%;
+  }
+}
